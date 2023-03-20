@@ -19,13 +19,27 @@ h1{
     font-weight: bold;
 }
 
+
+
 .option-btn{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin: auto;
     padding: 2rem;
     width: 50%;
     gap: 1rem;
+    align-items: center;
+}
+
+.btn{
+    width: 100%;
+    background-color: #00b7c2;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #topic{
@@ -56,6 +70,7 @@ h1{
     margin: auto;
     gap: 2rem;
     background-color: #D27685;
+    border-radius: 5px;
 }
 
 @media all and (max-width:500px) {
@@ -66,5 +81,9 @@ h1{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+
+    }
+    .card{
+        width: 100%;
     }
 }
